@@ -1,17 +1,4 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
-USE CollegeDB;
-
--- Create Student table
-
--- StudentID
-
--- StudentName
-
--- DOB
-
--- Gender
-
--- DepartmentID
-
--- Add constraints
+CREATE DATABASE divya;
+USE divya;
+create table student(Studentid int (5) primary key,studentname varchar (20),DOB date,departmentID int (5));
+desc student;
